@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: grey; /* Placeholder, we'll add the wavy background here */
+    background-image: url('img/bg.jpg'); /* You need to replace 'waves.jpg' with your actual image file */
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.centerpiece {
+    max-width: 100%;
+    height: auto;
+}
+
